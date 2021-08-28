@@ -8,7 +8,7 @@ module.exports = ctx => ({
         // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', { rel: 'icon', href: '/img/head.jpg' }], 
     ],
-	base: '/2375-days.github.io/', // 这是部署到github相关的配置 /<repo>/
+	base: '/test/', // 这是部署到github相关的配置 /<repo>/
 	dest: './ROOT',  // 设置输出目录  
 	//设置编译后的输出目录./ROOT代表在工程的根目录下生成一个ROOT文件，里面是编译好的文件，可以拿ROOT直接部署。
     markdown: {
